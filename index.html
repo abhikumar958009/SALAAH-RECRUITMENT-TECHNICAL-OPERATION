@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure CSS Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="title">CSS Image Gallery</h1>
+
+  <div class="gallery">
+    <a href="#img1"><img src="https://picsum.photos/id/1015/400/300" alt="Image 1"></a>
+    <a href="#img2"><img src="https://picsum.photos/id/1025/400/300" alt="Image 2"></a>
+    <a href="#img3"><img src="https://picsum.photos/id/1035/400/300" alt="Image 3"></a>
+    <a href="#img4"><img src="https://picsum.photos/id/1045/400/300" alt="Image 4"></a>
+    <a href="#img5"><img src="https://picsum.photos/id/1055/400/300" alt="Image 5"></a>
+    <a href="#img6"><img src="https://picsum.photos/id/1065/400/300" alt="Image 6"></a>
+  </div>
+
+  <!-- Lightbox Section -->
+  <div class="lightbox" id="img1">
+    <a href="#img6" class="prev">❮</a>
+    <img src="https://picsum.photos/id/1015/800/600" alt="">
+    <a href="#img2" class="next">❯</a>
+    <a href="#" class="close">✕</a>
+  </div>
+
+  <div class="lightbox" id="img2">
+    <a href="#img1" class="prev">❮</a>
+    <img src="https://picsum.photos/id/1025/800/600" alt="">
+    <a href="#img3" class="next">❯</a>
+    <a href="#" class="close">✕</a>
+  </div>
+
+  <div class="lightbox" id="img3">
+    <a href="#img2" class="prev">❮</a>
+    <img src="https://picsum.photos/id/1035/800/600" alt="">
+    <a href="#img4" class="next">❯</a>
+    <a href="#" class="close">✕</a>
+  </div>
+
+  <div class="lightbox" id="img4">
+    <a href="#img3" class="prev">❮</a>
+    <img src="https://picsum.photos/id/1045/800/600" alt="">
+    <a href="#img5" class="next">❯</a>
+    <a href="#" class="close">✕</a>
+  </div>
+
+  <div class="lightbox" id="img5">
+    <a href="#img4" class="prev">❮</a>
+    <img src="https://picsum.photos/id/1055/800/600" alt="">
+    <a href="#img6" class="next">❯</a>
+    <a href="#" class="close">✕</a>
+  </div>
+
+  <div class="lightbox" id="img6">
+    <a href="#img5" class="prev">❮</a>
+    <img src="https://picsum.photos/id/1065/800/600" alt="">
+    <a href="#img1" class="next">❯</a>
+    <a href="#" class="close">✕</a>
+  </div>
+</body>
+</html>
